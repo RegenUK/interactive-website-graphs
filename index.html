@@ -3,11 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Regen Chart</title>
-  <link rel="stylesheet" href="config/style.css" />
-  <link rel="stylesheet" href="config/font.css" />
+  <!--if local-->
+  <!-- <link rel="stylesheet" href="config/style.css" /> -->
+  <!-- if used elsewhere we need the "raw" url to the file in repository -->
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/RegenUK/interactive-website-graphs/refs/heads/main/config/style.css" />
+
+  <!--if local -->
+  <!-- <link rel="stylesheet" href="config/font.css" /> -->
+  <!-- if used elsewhere we need the "raw" url to the file in repository -->
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/RegenUK/interactive-website-graphs/refs/heads/main/config/font.css" />
+
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-  <script src="config/chart-theme.js"></script>
+
+  <!-- if local -->
+  <!-- <script src="config/chart-theme.js"></script> -->
+  <!-- if used elsewhere we need the "raw" url to the file in repository -->
+  <script src="https://raw.githubusercontent.com/RegenUK/interactive-website-graphs/refs/heads/main/config/chart-theme.js"></script>
 </head>
 <body>
   <div class="figure-reference">Chart title – key takeaway</div>
@@ -16,7 +28,10 @@
   <div id="chart"></div>
   <p id="source">Source: Regen analysis, 2024</p>
 
-  <script src="scripts/chart.js"></script>
+  <!-- if local -->
+  <!-- <script src="scripts/chart.js"></script> -->
+  <!-- if used elsewhere we need the "raw" url to the file in repository -->
+  <script src="https://raw.githubusercontent.com/RegenUK/interactive-website-graphs/refs/heads/main/scripts/chart.js"></script>
 
 </body>
 </html>
